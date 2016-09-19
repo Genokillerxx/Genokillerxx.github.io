@@ -1,0 +1,153 @@
+.register
+{
+    background-color: #ecebf9;
+}
+.register h1
+{
+    margin: 2rem auto;
+    width: 50%;
+}
+
+.register .item
+{
+    margin: 3rem auto 0rem auto;
+    width: 50%;
+}
+
+
+.register .item i
+{
+    color: #c0c0c0;
+    width: 30px;
+    height: 30px;
+}
+
+.register .item input
+{
+    font-size: 2rem;
+    width: 80%;
+    margin-left: 1rem;
+    padding: 0.5rem;
+    height: 3rem;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+
+.register .item  .check-code
+{
+    width: 35%;
+}
+
+.check-code-btn
+{
+    background-color: #00aaee;
+    font-size: 1.6rem;
+    float: right;
+    margin: 0.5rem 13% auto 1rem;
+    padding: 0.5rem;
+    color: #fff;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    outline: none;
+}
+
+.check-code-btn:hover
+{
+    background-color: #2098ee;
+}
+
+.register-btn
+{
+    margin: 3rem 35% 3rem 35%;
+    width: 30%;
+    height: 50px;
+    background-color: #ff9900;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 2rem;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 1.2rem;
+    text-align: center;
+}
+
+.register-btn:hover
+{
+    background-color: #ffc468;
+}
+
+.item-agreement
+{
+    margin: 3rem auto 0rem auto;
+    width: 50%;
+}
+
+#agreement
+{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.register label
+{
+    font-size: 1.8rem;
+}
+
+/* 手机 */
+
+@media only screen and (max-width: 960px)
+{
+    .register .item i
+    {
+        display: none;
+    }
+
+    .register h1
+    {
+        width: 80%;
+    }
+
+    .register .item
+    {
+        width: 80%;
+        margin: 2rem auto 0 auto;
+    }
+
+    .register .item input
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .register-btn
+    {
+        width: 50%;
+        margin: 3rem 25% 3rem 25%;
+        letter-spacing: 0.5rem;
+    }
+
+    .register .item  .check-code
+    {
+        width: 100%;
+    }
+
+    .check-code-btn
+    {
+        display: block;
+        float: none;
+        clear: both;
+        margin: 2rem auto;
+        width: 65%;
+        letter-spacing: 0.05rem;
+    }
+
+    .item-agreement
+    {
+        width: 81%;
+    }
+
+}
